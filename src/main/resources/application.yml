@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+      username: root
+      password: 8)4QsY9K*RqKc*DTk@dxJg%b2q%4px&q
+      url: jdbc:mysql://localhost:3306/mybatisplusdemo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    root: warn
+    com.example.mybatisplusdemo.mapper: trace
+  pattern:
+    console: "%d%p%m%n"
